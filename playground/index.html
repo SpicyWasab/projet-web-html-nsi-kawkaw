@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Redirection -->
+        <meta http-equiv="refresh" content="3; url=../index.html">
+        
+        <!-- Animation -->
+        <style>
+            body {
+                margin: 0;
+                height: 100%;
+                background: black;
+                color: #ddd;
+            }
+
+            .timer {
+                color: transparent;
+                background-clip: text;
+                -webkit-background-clip: text;
+
+                animation-name: timer;
+                animation-fill-mode: forwards;
+                animation-duration: 2s;
+                animation-timing-function: linear;
+
+                background-image: linear-gradient(90deg, #e66465, #9198e5);
+                background-repeat: no-repeat;
+            }
+
+            @keyframes timer {
+                from {
+                    background-position: -30ch;
+                }
+
+                to {
+                    background-position: 0ch;
+                }
+            }
+        </style>
+
+        <title>Page en construction (requiert javascript et php)</title>
+    </head>
+    <body>
+        <div id="box">
+            <h1>
+                Page non disponible pour le moment. (requiert javascript et php)
+            </h1>
+            <span class="timer">
+                Vous allez être redirigé(e) ...
+            </span>
+        </div>
+    </body>
+</html>
